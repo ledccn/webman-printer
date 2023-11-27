@@ -1,0 +1,53 @@
+{
+  "name": "ledc/webman-printer",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin ledc/webman-printer，统一安装云打印应用插件composer依赖",
+  "autoload": {
+    "psr-4": {
+      "Ledc\\WebmanPrinter\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "david",
+      "email": "367013672@qq.com",
+      "homepage": "https://www.iyuu.cn",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "367013672@qq.com",
+    "issues": "https://github.com/ledccn/webman-printer/issues",
+    "releases": "https://github.com/ledccn/webman-printer/releases",
+    "wiki": "https://github.com/ledccn/webman-printer/wiki",
+    "source": "https://github.com/ledccn/webman-printer"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "vlucas/phpdotenv": "^5.4",
+    "monolog/monolog": "^2.0",
+    "workerman/gateway-worker": "^3.1",
+    "workerman/crontab": "^1.0",
+    "workerman/http-client": "^2.0",
+    "webman/admin": "^0.6.18",
+    "webman/event": "^1.0",
+    "webman/console": "^1.2",
+    "topthink/think-container": "^2.0",
+    "topthink/think-validate": "^2.0",
+    "topthink/think-helper": "^3.1",
+    "ledc/locker": "^1.0",
+    "ledc/redis-queue": "^2.0",
+    "ledc/workerman-process": "^1.0",
+    "illuminate/database": "^10.32",
+    "illuminate/pagination": "^10.32",
+    "illuminate/events": "^10.32",
+    "illuminate/redis": "^10.32",
+    "symfony/cache": "^6.3"
+  }
+}
