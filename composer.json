@@ -44,10 +44,10 @@
     "ledc/locker": "^1.0",
     "ledc/redis-queue": "^2.0",
     "ledc/workerman-process": "^1.0",
-    "illuminate/database": "^10.32",
-    "illuminate/pagination": "^10.32",
-    "illuminate/events": "^10.32",
-    "illuminate/redis": "^10.32",
+    "illuminate/database": "*",
+    "illuminate/pagination": "*",
+    "illuminate/events": "*",
+    "illuminate/redis": "*",
     "symfony/cache": "^6.3"
   }
 }
